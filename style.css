@@ -1,3 +1,120 @@
-body {
-    background-color: aquamarine;
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+* {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Shared Style  */
+
+.Linear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(-150deg, #9100F8, #FB09B4, #fff236);
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 50px;
+}
+
+.hudai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Nav Menu Style */
+
+
+
+nav {
+    background-color: #1A0B2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 200px;
+    gap: 314px;
+}
+
+.Logo {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+.span {
+    background: linear-gradient(180deg, #9100F8, #FB09B4, #F7E93F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Help Taken From Chatgpt not Copied */
+.menu {
+    display: flex;
+    list-style: none;
+    color: White;
+    gap: 32px;
+    font-size: 1rem;
+}
+
+.Linear {
+    padding: 12px 16px;
+}
+
+.Linear img {
+    width: 20px;
+    height: 20px;
+}
+
+.Linear:hover,
+.Logo:hover {
+    cursor: grab;
+}
+
+
+.banner {
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+}
+
+.banner-mic {
+    padding: 101px 525px;
+}
+
+.mic {
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(-150deg, #9100F8, #FB09B4, #fff236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px Solid #2A186C;
+    border-radius: 50%;
+}
+
+#Challenge {
+    background-color: #00FF88;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 8px 16px;
+    position: absolute;
+}
+
+.title {
+    font-size: 3.75rem;
+    font-weight: bolder;
+    color: white;
+    margin-top: 40px;
+
+}
+
+.desc {
+    color: white;
+    font: 1rem;
 }
