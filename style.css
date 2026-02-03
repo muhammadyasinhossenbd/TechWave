@@ -234,6 +234,28 @@ nav {
 }
 
 
+/* Featured CSS */
+.Featured {
+    background-color: #1A0B2E;
+    padding: 120px 200px;
+}
+
+.f-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card2 {
+    background-color: #250D44;
+
+}
+
+
+.host {
+    background-color: #250D44;
+}
 
 /* footer CSS */
 .footer {
