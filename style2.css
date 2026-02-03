@@ -75,6 +75,7 @@ span {
     background-image: url(./assets/hero-bg.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     flex-direction: column;
     padding: 101px 505px;
 }
@@ -98,6 +99,7 @@ span {
     background-image: linear-gradient(-150deg, #9100F8, #FB09B4, #fff236);
     border: 8px Solid #2A186C;
     border-radius: 50%;
+
 }
 
 .buttons {
@@ -233,6 +235,8 @@ iframe {
 
 footer {
     background-image: url(./assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
     flex-direction: column;
     padding: 120px;
 }
