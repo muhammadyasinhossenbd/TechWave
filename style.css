@@ -8,7 +8,7 @@
 }
 
 * {
-    max-width: 1600px;
+    /* max-width: 1600px; */
     margin: 0 auto;
 }
 
@@ -136,7 +136,7 @@ nav {
 
 .button {
     margin-top: 24px;
-    padding: 0 100px;
+    padding: 0 80px;
     gap: 8px;
     display: flex;
     justify-content: center;
@@ -145,6 +145,7 @@ nav {
 
 .spotify {
     gap: 5px;
+    justify-content: space-around;
 }
 
 .mail {
@@ -155,7 +156,7 @@ nav {
     padding: 12px 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 5px;
 }
 
