@@ -1,0 +1,57 @@
+* {
+    margin: 0 Auto;
+    max-width: 1600px;
+}
+
+:root {
+    --primary-background-color: #1A0B2E;
+    --primary-color: #FFFFFF;
+    --secondary-color: #ffffffcc;
+    --primary-font-family: "Inter",
+        sans-serif;
+}
+
+.magic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Nav CSS */
+
+nav {
+    background-color: var(--primary-background-color);
+    font-family: var(--primary-font-family);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 34px 200px;
+    color: var(--primary-color);
+}
+
+nav ul {
+    gap: 32px;
+}
+
+nav li {
+    list-style: none;
+    color: var(--primary-color);
+    font-size: 1rem;
+    line-height: 120%;
+}
+
+span {
+    background: linear-gradient(180deg, #9100F8, #FB09B4, #F7E93F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Linear {
+    background-image: linear-gradient(-150deg, #9100F8, #FB09B4, #fff236);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-radius: 50px;
+    padding: 4px 16px;
+}
