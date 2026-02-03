@@ -38,10 +38,9 @@
 nav {
     background-color: #1A0B2E;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 24px 200px;
-    gap: 314px;
 }
 
 .Logo {
@@ -57,7 +56,8 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-/* Help Taken From Chatgpt not Copied */
+
+
 .menu {
     display: flex;
     list-style: none;
@@ -231,4 +231,47 @@ nav {
 .card {
     background-color: #351165;
     border-radius: 40px;
+}
+
+
+
+/* footer CSS */
+.footer {
+    background-image: url(./assets/footer-bg.png);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Logo2 {
+    font-size: 5rem;
+}
+
+.footer-head {
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-color);
+}
+
+.foot-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.foot-image h5 {
+
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footnote {
+    margin-top: 32px;
+    font-size: 1rem;
 }
