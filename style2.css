@@ -27,6 +27,12 @@
     gap: 5px;
 }
 
+#gr {
+    background: linear-gradient(180deg, #9100F8, #FB09B4, #F7E93F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .magic {
     display: flex;
     align-items: center;
@@ -37,6 +43,20 @@
     font-size: 1rem;
     font-weight: 100;
     letter-spacing: 1px;
+    color: var(--secondary-color);
+}
+
+.Title {
+    color: var(--primary-color);
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Title2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 700;
 }
 
 /* Nav CSS */
@@ -62,11 +82,6 @@ nav li {
     line-height: 120%;
 }
 
-span {
-    background: linear-gradient(180deg, #9100F8, #FB09B4, #F7E93F);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 
 /* Hero CSS */
@@ -104,15 +119,14 @@ span {
 
 .buttons {
     padding: 24px 118px 0 118px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     gap: 8px;
 }
 
 .buttons .spotify {
     gap: 5px;
-    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 12px 20px;
 }
 
@@ -126,6 +140,52 @@ span {
     padding: 12px 20px;
     font-size: 1.2rem;
 }
+
+/* Why Choose Section CSS */
+
+.whychoose {
+    background-color: var(--secondary-background-color);
+    padding: 120px 200px;
+}
+
+.cardc2 {
+    margin-top: 40px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.card2 {
+    background-color: #45118b80;
+    border-radius: 40px;
+}
+
+.big {
+    grid-row: span 2;
+    padding: 108px 40px;
+    margin: 0;
+
+}
+
+.medium {
+    grid-column: span 2;
+    padding: 40px;
+    margin: 0;
+}
+
+.small {
+    grid-row: span 1;
+    padding: 40px;
+    margin: 0;
+}
+
+.card2 h1,
+.card2 p {
+    margin-top: 16px;
+    line-height: 24px;
+}
+
 
 /* About Podcast CSS */
 
@@ -145,8 +205,7 @@ span {
     margin-top: 16px;
     font-size: 1rem;
     line-height: 25px;
-    padding-bottom: 80px;
-    border-bottom: 2px solid rgba(105, 104, 104, 0.355);
+    padding-bottom: 40px;
 }
 
 .about-details {
@@ -156,10 +215,12 @@ span {
 .achievment {
     gap: 80px;
     color: var(--secondary-color);
-    padding: 0 200px 120px 200px;
-    font-size: 1rem;
-    font-weight: 100;
-    letter-spacing: 1px;
+    padding: 40px 200px 120px 200px;
+    border-top: 2px solid rgba(105, 104, 104, 0.355);
+}
+
+.achievment p {
+    margin-top: 16px;
 }
 
 .achievment h1 {
@@ -170,26 +231,28 @@ span {
 .Featured {
     background-color: var(--primary-background-color);
     padding: 120px 200px;
+    flex-direction: column;
+    gap: 120px;
 }
 
-.Title {
-    color: var(--primary-color);
-    font-size: 3rem;
-    text-align: center;
-    font-weight: 700;
-}
+
 
 .cardc3 {
     margin-top: 98px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
 .card3 {
     background-color: var(--secondary-background-color);
-    border-radius: 30px;
+    border-radius: 50px;
+}
+
+.card3 h1,
+.card3 p,
+.card3 img {
+    background-color: var(--secondary-background-color);
 }
 
 iframe {
@@ -199,15 +262,18 @@ iframe {
 }
 
 .hosttab {
-    flex-wrap: wrap;
     margin-top: 120px;
-    padding: 40px;
-    background-color: var(--secondary-background-color);
-    border-radius: 40px;
 }
 
 .host {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 24px;
+    padding: 40px;
+    background-color: var(--secondary-background-color);
+    border-radius: 40px;
+    margin-top: 40px;
 }
 
 .host-details h1 {
@@ -236,12 +302,13 @@ iframe {
 footer {
     background-image: url(./assets/footer-bg.png);
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: column;
     padding: 120px;
 }
 
 footer h1 {
+    color: var(--primary-color);
     font-size: 5rem;
 }
 
