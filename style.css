@@ -114,7 +114,7 @@ nav li {
     background-image: linear-gradient(-150deg, #9100F8, #FB09B4, #fff236);
     border: 8px Solid #2A186C;
     border-radius: 50%;
-
+    position: relative;
 }
 
 .buttons {
@@ -333,4 +333,13 @@ footer h1 {
 footer .footnote {
     margin-top: 34px;
     color: var(--secondary-color);
+}
+
+
+#Challenge {
+    color: red;
+    border: 2px solid green;
+    /* position: absolute; */
+    /* top: 180px;
+    right: 840px; */
 }
