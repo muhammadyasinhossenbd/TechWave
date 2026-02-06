@@ -223,9 +223,6 @@ nav li {
     text-align: center;
 }
 
-/* .achievments {
-    grid-column: span 1;
-} */
 
 .achievment p {
     margin-top: 16px;
@@ -236,26 +233,63 @@ nav li {
 }
 
 /* Featured CSS */
-.Featured {
+
+
+.FeaturedB {
     background-color: var(--primary-background-color);
     padding: 120px 200px;
-    flex-direction: column;
-    gap: 120px;
 }
 
+.Featured-Card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+}
 
-
-.card3 h1,
-.card3 p,
-.card3 img {
+.fcard {
     background-color: var(--secondary-background-color);
+    padding-top: 0;
+    border-radius: 27px;
+}
+
+.video {
+    padding-top: 0;
 }
 
 iframe {
     width: 100%;
-    height: 100%;
-    border: none;
+    height: 20rem;
 }
+
+.fcarddesc {
+    margin: 24px;
+}
+
+.fcarddesc h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.fcarddesc p {
+    margin-top: 8px;
+}
+
+.duration {
+    color: var(--third-color);
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+
+.duration img {
+    margin-right: 5px;
+    align-items: center;
+
+}
+
+
 
 .hosttab {
     margin-top: 120px;
