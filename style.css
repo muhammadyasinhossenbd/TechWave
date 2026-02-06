@@ -69,7 +69,22 @@ nav {
     justify-content: space-between;
     padding: 34px 45px;
     color: var(--primary-color);
+    position: sticky;
+    top: 0px;
+    transition: background-image 0.5s ease;
+
 }
+Animations
+nav:hover {
+    background-image: linear-gradient(150deg, #412753, #af057f, #da29f1, rgb(255, 255, 42));
+}
+
+nav:hover h1 {
+    transform: translateX(-10px);
+    transform: scale(1.2);
+}
+
+
 
 nav ul {
     gap: 32px;
@@ -109,8 +124,8 @@ nav li {
 }
 
 .mic {
-    width: 350px;
-    height: 350px;
+    width: 21.90rem;
+    height: 21.90rem;
     background-image: linear-gradient(-150deg, #9100F8, #FB09B4, #fff236);
     border: 8px Solid #2A186C;
     border-radius: 50%;
@@ -122,12 +137,19 @@ nav li {
     gap: 8px;
 }
 
-.buttons .spotify {
+.buttons {
     gap: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 12px 20px;
+}
+
+.spotify {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mail {
@@ -157,7 +179,7 @@ nav li {
 }
 
 .card2 {
-    background-color: #45118b80;
+    background-color: #40036960;
     border-radius: 40px;
 }
 
@@ -251,16 +273,18 @@ nav li {
 .fcard {
     background-color: var(--secondary-background-color);
     padding-top: 0;
+    margin-top: 0;
     border-radius: 27px;
 }
 
 .video {
     padding-top: 0;
+    margin-top: 0;
 }
 
 iframe {
     width: 100%;
-    height: 20rem;
+    height: 16rem;
 }
 
 .fcarddesc {
