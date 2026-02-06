@@ -74,16 +74,6 @@ nav {
     transition: background-image 0.5s ease;
 
 }
-Animations
-nav:hover {
-    background-image: linear-gradient(150deg, #412753, #af057f, #da29f1, rgb(255, 255, 42));
-}
-
-nav:hover h1 {
-    transform: translateX(-10px);
-    transform: scale(1.2);
-}
-
 
 
 nav ul {
@@ -97,7 +87,15 @@ nav li {
     line-height: 120%;
 }
 
+/* Animations Added */
+nav:hover {
+    background-image: linear-gradient(150deg, #412753, #af057f, #da29f1, rgb(255, 255, 42));
+}
 
+nav:hover h1 {
+    transform: translateX(-10px);
+    transform: scale(1.2);
+}
 
 /* Hero CSS */
 
