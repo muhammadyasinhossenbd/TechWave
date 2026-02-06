@@ -128,7 +128,26 @@ nav:hover h1 {
     border: 8px Solid #2A186C;
     border-radius: 50%;
     position: relative;
+
+    animation: MICPulse 1.5s ease-in-out infinite alternate-reverse;
 }
+
+@keyframes MICPulse {
+    0% {
+        box-shadow: 0 0 5px #f1d312, 0 0 20px #fff236;
+
+    }
+
+    50% {
+        box-shadow: 0 0 10px rgb(203, 18, 213), 0 0 30px rgb(219, 58, 195);
+    }
+
+    100% {
+        box-shadow: 0 0 20px #4d027b, 0 0 40px #450775;
+
+    }
+}
+
 
 .buttons {
     margin-top: 20px;
@@ -396,6 +415,9 @@ footer .footnote {
 .hmenu {
     display: none;
 }
+
+
+
 
 /* Responsive Media Query */
 
